@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--Created by Jogi Prasad Pakki on $DATE$.
+  No one allowed to use or modify this script.
+  If you any questions mail me to jogiprasadpakki@gmail.com
+  Copy right 2018 All reserved by Jogi Prasad Pakki.-->
+<com.jogiprasadpakki.android.DynamicGridLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/_6sdp"
+    android:paddingEnd="5dp"
+    android:paddingBottom="@dimen/_10sdp"
+    android:paddingTop="@dimen/_10sdp"
+    app:columnCount="3"
+    app:horizontalSpace="4.5dp"
+    app:verticalSpace="4.5dp">
+
+    <androidx.cardview.widget.CardView
+        style="@style/service_btn_card"
+        android:id="@+id/btn_service_ac">
+        <LinearLayout
+            style="@style/servicesButtions"
+            android:orientation="vertical"
+            >
+            <ImageView
+                style="@style/serviceBtnImage"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/ic_air_conditionar"/>
+            <TextView
+                android:text="@string/air_condition_service"
+                style="@style/serviceBtnText"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        style="@style/service_btn_card"
+        android:id="@+id/btn_service_carpenter">
+        <LinearLayout
+            style="@style/servicesButtions"
+            android:orientation="vertical"
+            >
+            <ImageView
+                style="@style/serviceBtnImage"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/ic_chain_saw"/>
+            <TextView
+                android:text="@string/carpenter"
+                style="@style/serviceBtnText"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        style="@style/service_btn_card"
+        card_view:cardElevation="4dp"
+        android:id="@+id/btn_service_cctv">
+        <LinearLayout
+            style="@style/servicesButtions"
+            android:orientation="vertical">
+            <ImageView
+                style="@style/serviceBtnImage"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/ic_survielense_camera" />
+            <TextView
+                android:text="@string/cctv_fitting"
+                style="@style/serviceBtnText" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        style="@style/service_btn_card"
+        android:id="@+id/btn_service_worker">
+        <LinearLayout
+            style="@style/servicesButtions"
+            android:orientation="vertical">
+            <ImageView
+                style="@style/serviceBtnImage"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/ic_worker"/>
+            <TextView
+                android:text="@string/hire_handy_man"
+                style="@style/serviceBtnText"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        style="@style/service_btn_card"
+        android:id="@+id/btn_service_computer">
+        <LinearLayout
+            style="@style/servicesButtions"
+            android:orientation="vertical"
+            >
+            <ImageView
+                style="@style/serviceBtnImage"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/ic_pc_monitar"/>
+            <TextView
+                android:text="@string/pc_serviceing"
+                style="@style/serviceBtnText"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        style="@style/service_btn_card"
+        android:id="@+id/btn_service_electric">
+        <LinearLayout
+            style="@style/servicesButtions"
+            android:orientation="vertical">
+            <ImageView
+                style="@style/serviceBtnImage"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/ic_broken_cable" />
+            <TextView
+                android:text="@string/electricity"
+                style="@style/serviceBtnText"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        style="@style/service_btn_card"
+        android:id="@+id/btn_service_home_applience">
+        <LinearLayout
+            style="@style/servicesButtions"
+            android:orientation="vertical">
+
+            <ImageView
+                style="@style/serviceBtnImage"
+                android:layout_height="38dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/ic_washing_machine" />
+            <TextView
+                android:text="@string/home_applience"
+                style="@style/serviceBtnText"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        style="@style/service_btn_card"
+        android:id="@+id/btn_service_logistics">
+        <LinearLayout
+            style="@style/servicesButtions"
+            android:orientation="vertical">
+            <ImageView
+                style="@style/serviceBtnImage"
+                android:scaleType="fitCenter"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_width="@dimen/_50sdp"
+                app:srcCompat="@drawable/ic_delivery_truck"/>
+            <TextView
+                android:text="@string/logistics"
+                style="@style/serviceBtnText"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        style="@style/service_btn_card"
+        android:id="@+id/btn_service_mobile">
+        <LinearLayout
+            style="@style/servicesButtions"
+            android:orientation="vertical"
+            >
+            <ImageView
+                style="@style/serviceBtnImage"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/ic_water_filter"/>
+            <TextView
+                android:text="@string/water_purifier"
+                style="@style/serviceBtnText"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        style="@style/service_btn_card"
+        android:id="@+id/btn_service_painter">
+        <LinearLayout
+            style="@style/servicesButtions"
+            android:orientation="vertical"
+            >
+            <ImageView
+                style="@style/serviceBtnImage"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/ic_paint_roller"/>
+            <TextView
+                android:text="@string/painting"
+                style="@style/serviceBtnText"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        style="@style/service_btn_card"
+        android:id="@+id/btn_service_plumbing">
+        <LinearLayout
+            style="@style/servicesButtions"
+            android:orientation="vertical"
+            >
+            <ImageView
+                style="@style/serviceBtnImage"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/ic_plumbing"/>
+            <TextView
+                android:text="@string/plumbing"
+                style="@style/serviceBtnText"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        style="@style/service_btn_card"
+        android:id="@+id/btn_service_solar">
+
+        <LinearLayout
+            style="@style/servicesButtions"
+            android:orientation="vertical">
+            <ImageView
+                style="@style/serviceBtnImage"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/ic_solar_pannels"/>
+            <TextView
+                android:text="@string/solar_pannels"
+                style="@style/serviceBtnText"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+</com.jogiprasadpakki.android.DynamicGridLayout>

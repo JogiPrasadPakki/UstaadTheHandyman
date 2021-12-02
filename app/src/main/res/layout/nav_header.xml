@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--Created by Jogi Prasad Pakki on $DATE$.
+  No one allowed to use or modify this script.
+  If you any questions mail me to jogiprasadpakki@gmail.com 
+  Copy right 2018 All reserved by Jogi Prasad Pakki.-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="100dp"
+    android:background="@color/tool_bar">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ustaad_header_logo"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>

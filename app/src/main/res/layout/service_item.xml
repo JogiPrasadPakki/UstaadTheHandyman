@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/_10sdp">
+
+    <ImageView
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:id="@+id/img_service_item_icon"
+        app:srcCompat="@drawable/ic_air_conditionar"
+        android:layout_alignParentStart="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_service_item"
+        android:layout_toEndOf="@id/img_service_item_icon"
+        android:text="@string/air_condition_service"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:textSize="@dimen/_18ssp"
+        android:textColor="@color/text_color"/>
+    <ImageView
+        android:layout_width="@dimen/_35sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:src="@drawable/ic_service_item_enter"
+        android:layout_gravity="center"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"/>
+
+</RelativeLayout>

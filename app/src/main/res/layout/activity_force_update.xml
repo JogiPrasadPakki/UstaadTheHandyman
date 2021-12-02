@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.ForceUpdate">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/background_splash"
+        android:alpha="0.1"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ustaad_person"
+            android:id="@+id/img_spalsh_usaad_person"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:text="USTAAD"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:textSize="50sp"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/update_requires"
+            android:textSize="25sp"
+            android:layout_marginTop="10dp"/>
+        <Button
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_update_app"
+            android:background="@color/colorPrimary"
+            android:text="@string/update"
+            android:textColor="@color/white"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:textAllCaps="false"
+            android:textSize="@dimen/_20ssp"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

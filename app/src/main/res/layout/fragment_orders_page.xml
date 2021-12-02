@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:id="@+id/swl_order_histry"
+    android:background="@color/page_background">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".fragments.OrdersPage">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/rv_user_orders"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ll_user_orders_warn"
+            android:orientation="vertical"
+            android:visibility="gone"
+            android:layout_centerInParent="true">
+            <ImageView
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_100sdp"
+                android:id="@+id/img_user_orders_warn_image"
+                app:srcCompat="@drawable/ic_no_connecton"
+                android:layout_gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_user_orders_warn"
+                android:textSize="@dimen/_20ssp"
+                android:layout_marginTop="@dimen/_10sdp"/>
+            <Button
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_user_orders_login"
+                android:text="@string/login"
+                android:textAllCaps="false"
+                android:layout_gravity="center"
+                android:background="@color/colorPrimary"
+                android:textColor="@color/white"
+                android:visibility="gone"
+                android:layout_marginTop="@dimen/_10sdp"/>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--Created by Jogi Prasad Pakki on $DATE$.
+  No one allowed to use or modify this script.
+  If you any questions mail me to jogiprasadpakki@gmail.com 
+  Copy right 2018 All reserved by Jogi Prasad Pakki.-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="55dp"
+    android:layout_height="55dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_alignParentEnd="true"
+    android:layout_marginEnd="15dp">
+
+    <Button
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:text="1"
+        android:textColor="@color/white"
+        android:background="@drawable/ic_number_circle"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="9dp"
+        android:layout_marginTop="6dp"/>
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:srcCompat="@drawable/ic_notifications_black_24dp"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>

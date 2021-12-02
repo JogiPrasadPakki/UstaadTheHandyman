@@ -1,0 +1,189 @@
+{
+  "CCTv":{
+    "Services":{
+
+    }
+  },
+  "Electric":{
+    "id":302,
+    "Services":{
+      "Switchs,Meters & Fuses":{
+        "icon":"ic_air_conditionar",
+        "type":{
+          "Installation":{
+            "description":"",
+            "price":"300"
+          },
+          "Repair":{
+            "description":"",
+            "price":"600"
+          },
+          "servicing":{
+            "description":"",
+            "price":"800"
+          }
+        }
+      },
+      "Wiring":{
+        "icon":"ic_smart_tv",
+        "type":{
+          "Installation":{
+            "description":"",
+            "price":"300"
+          },
+          "Repair":{
+            "description":"",
+            "price":"600"
+          }
+        }
+      },
+      "Fans":{
+        "icon":"ic_washing_machine",
+        "type":{
+          "Repair":{
+            "description":"",
+            "price":"600"
+          }
+        }
+      },
+      "Lights":{
+        "icon":"ic_washing_machine",
+        "type":{
+          "Repair":{
+            "description":"",
+            "price":"600"
+          }
+        }
+      },
+      "Inverts":{
+        "icon":"ic_washing_machine",
+        "type":{
+          "Repair":{
+            "description":"",
+            "price":"600"
+          }
+        }
+      }
+      }
+    },
+  "Plumbing":{
+     "Services":{
+        "Tap,Wash Bashin And Sink":{
+          "icon":"",
+          "type":{
+
+          }
+        },
+        "Blocks & Leackages":{
+          "icon":"",
+          "type":{
+
+          }
+      
+        },
+        "Tolilets & Sanitary Work":{
+          "icon":"",
+          "type":{
+
+          }
+         
+        }, 
+        "Boothroom Fittings":{
+            "icon":"",
+            "type":{
+
+            }
+            
+          },
+        "Water Tank":{
+            "icon":"",
+            "type":{
+
+            }
+          }, 
+          "Pipe lines":{
+              "icon":"",
+              "type":{
+
+              }
+            }
+
+
+        
+    }
+  },
+  "Computer":{
+    "Services":{
+      
+    }
+  },
+  "AC":{
+    "Services":{
+      
+    }
+  },
+  "Electronics":{
+    "id":1,
+    "Services":{
+      "Washing Machine":{
+        "icon":"",
+        "type":{
+
+        }
+      },
+      "Refrigerator":{
+        "icon":"",
+        "type":{
+
+        }
+      },
+      "Geyser":{
+
+      }
+    }
+    
+  },
+  "Carpenter":{
+    "id":1,
+    "Services":{
+      "General Carpenter work":{
+        "icon":"",
+        "type":{
+
+        }
+       
+      }, 
+      "Furniture":{
+        "icon":"",
+        "type":{
+            "Installation & Assamble":{
+
+            },
+            "Repair":{
+
+            }
+        }
+      },
+      "Bolts,Latches,Handle work":{
+        "icon":"",
+        "type":{
+
+        }
+      },
+      "Bird Netting":{
+        "icon":"",
+        "type":{
+
+        }
+      },
+      "Mosquito Netting":{
+        "icon":"",
+        "type":{
+
+        }
+      }
+
+    }
+  }
+
+}

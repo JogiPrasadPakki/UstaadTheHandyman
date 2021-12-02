@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Created by Jogi Prasad Pakki on 16-May-2019.
+  No one allowed to use or modify this script.
+  If you any questions mail me to jogiprasadpakki@gmail.com 
+  Copy right 2018-2019 All reserved by Jogi Prasad Pakki.-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="@dimen/_10sdp"
+    android:background="@color/white"
+    android:layout_marginBottom="@dimen/_20sdp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_address_person_name"
+            android:text="Jogi Prasad Pakki"
+            android:layout_alignParentStart="true"
+            android:paddingEnd="@dimen/_10sdp"
+            android:paddingStart="@dimen/_10sdp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_address_person_mobile"
+            android:text="+911234567890"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:layout_below="@+id/txt_address_person_name"
+            android:paddingEnd="@dimen/_10sdp"
+            android:paddingStart="@dimen/_10sdp"/>
+
+        <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:src="@drawable/dotted_lines"
+        android:layerType="software"
+        android:paddingEnd="@dimen/_10sdp"
+        android:paddingStart="@dimen/_10sdp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_address_house_no"
+            android:text="1-45"
+            android:paddingEnd="@dimen/_10sdp"
+            android:paddingStart="@dimen/_10sdp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_address_street"
+            android:text="Yerukonda"
+            android:paddingEnd="@dimen/_10sdp"
+            android:paddingStart="@dimen/_10sdp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_address_locality"
+            android:text="vizag"
+            android:paddingBottom="@dimen/_10sdp"
+            android:paddingEnd="@dimen/_10sdp"
+            android:paddingStart="@dimen/_10sdp"/>
+
+        <include
+            android:layout_alignParentBottom="true"
+            layout="@layout/horizontal_line"
+            android:layout_height="1dp"
+            android:layout_width="match_parent" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:id="@+id/btn_edit_address"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:text="&#8942;"
+        android:textSize="@dimen/_20ssp"
+        android:background="@android:color/transparent"/>
+
+
+</RelativeLayout>

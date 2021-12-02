@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Created by Jogi Prasad Pakki on $DATE$.
+  No one allowed to use or modify this script.
+  If you any questions mail me to jogiprasadpakki@gmail.com 
+  Copy right 2018-2019 All reserved by Jogi Prasad Pakki.-->
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/_10sdp"
+    android:layout_marginStart="@dimen/_10sdp"
+    android:layout_marginEnd="@dimen/_10sdp"
+    android:id="@+id/card_rv_user_orders">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:padding="@dimen/_5sdp">
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/txt_rv_service_name"
+           android:text="Electric"
+           android:textSize="@dimen/_20ssp"/>
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/txt_rv_service_description"
+           android:maxLines="4"/>
+         <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="@dimen/_5sdp">
+
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:layout_alignParentStart="true">
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Status:"
+                   android:layout_marginEnd="@dimen/_10sdp"/>
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:id="@+id/txt_rv_service_status"
+                   android:textStyle="bold" />
+           </LinearLayout>
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:layout_alignParentEnd="true">
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Date:"
+                   android:layout_marginEnd="@dimen/_10sdp"/>
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:id="@+id/txt_rv_service_date"
+                   android:textStyle="bold" />
+           </LinearLayout>
+
+       </RelativeLayout>
+
+   </LinearLayout>
+
+</androidx.cardview.widget.CardView>

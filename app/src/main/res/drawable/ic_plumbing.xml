@@ -1,0 +1,21 @@
+<vector android:height="24dp" android:viewportHeight="78.890594"
+    android:viewportWidth="108.94415" android:width="24dp" xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#2d75bb"
+        android:pathData="m0,0l30.054,0l0,7.513l-30.054,0zM0,0" android:strokeWidth="0.35277778"/>
+    <path android:fillColor="#87cee9"
+        android:pathData="m3.757,7.513l22.54,0l0,22.54l-22.54,0zM3.757,7.513" android:strokeWidth="0.35277778"/>
+    <path android:fillColor="#2d75bb"
+        android:pathData="m0,30.054l30.054,0l0,7.513l-30.054,0zM0,30.054" android:strokeWidth="0.35277778"/>
+    <path android:fillColor="#87cee9"
+        android:pathData="m67.621,18.783l0,11.27l22.54,0l0,-3.757c0,-2.075 1.682,-3.757 3.757,-3.757l7.513,0l0,-18.783l-18.783,0c-8.299,0 -15.027,6.727 -15.027,15.027zM67.621,18.783" android:strokeWidth="0.35277778"/>
+    <path android:fillColor="#2d75bb"
+        android:pathData="m101.431,0l7.513,0l0,26.297l-7.513,0zM101.431,0" android:strokeWidth="0.35277778"/>
+    <path android:fillColor="#2d75bb"
+        android:pathData="m63.864,30.054l30.054,0l0,7.513l-30.054,0zM63.864,30.054" android:strokeWidth="0.35277778"/>
+    <path android:fillColor="#87cee9"
+        android:pathData="m67.621,37.567c0,10.374 -8.409,18.783 -18.783,18.783l-3.757,0c-10.374,0 -18.783,-8.409 -18.783,-18.783l-22.54,0c0,22.823 18.501,41.324 41.324,41.324l3.757,0c22.823,0 41.324,-18.501 41.324,-41.324zM67.621,37.567" android:strokeWidth="0.35277778"/>
+    <path android:fillColor="#cdeef6" android:pathData="m77.012,22.54l-3.757,0l0,-3.757c0.006,-5.185 4.207,-9.385 9.392,-9.392l3.757,0l0,3.757l-3.757,0c-3.112,0 -5.635,2.523 -5.635,5.635zM77.012,22.54"/>
+    <path android:fillColor="#cdeef6" android:pathData="m16.905,13.148l3.757,0l0,11.27L16.905,24.419ZM16.905,13.148"/>
+    <path android:fillColor="#cdeef6" android:pathData="m16.905,43.202l3.757,0l0,3.757L16.905,46.959ZM16.905,43.202"/>
+    <path android:fillColor="#cdeef6" android:pathData="m90.161,9.392l3.757,0l0,3.757l-3.757,0zM90.161,9.392"/>
+</vector>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Created by Jogi Prasad Pakki on $DATE$.
+  No one allowed to use or modify this script.
+  If you any questions mail me to jogiprasadpakki@gmail.com 
+  Copy right 2018-2019 All reserved by Jogi Prasad Pakki.-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="line">
+   <stroke android:color="@color/gray"
+       android:dashWidth="10px"
+       android:dashGap="10px"
+       android:width="1dp"/>
+
+</shape>
